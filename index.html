@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+        <img src="g.jpg" class="logo" alt="">
+    </div>
+    <div class="bg">
+        <img src="https://wallpapercave.com/wp/wp4626258.jpg" alt="bg">
+        <div class="centered">Moderno
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio architecto unde voluptatum
+                facere possimus placeat soluta laboriosam, repudiandae aut nisi officiis, sed consequuntur beatae quo
+                veniam voluptatibus! Dignissimos, eos vel.</p>
+            <form class="example" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+        }
+    </script>
+    <h1 class="cards">
+        <marquee>IMAGE CARDS</marquee>
+    </h1>
+    <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
+            alt="Denim Jeans" style="width:100%">
+        <h1>Tailored Jeans</h1>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.
+        </p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="super">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="Denim Jeans"
+            style="width:100%">
+        <h1>Nature pic</h1>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.
+        </p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="devil">
+        <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="
+            alt="Denim Jeans" style="width:100%">
+        <h1>Taj Mahal</h1>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.
+        </p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div>
+        <h1>
+            <marquee id="trp">CONTACT US</marquee>
+        </h1>
+    </div>
+    <div class="wrap">
+        <img src="https://thumbs.dreamstime.com/b/contact-us-customer-support-hotline-people-connect-call-customer-support-contact-us-customer-support-hotline-people-connect-call-129786983.jpg"
+            alt="">
+            <div class="kalo">
+                <form action="/action_page.php" class="col">
+                    <label for="Name"><b>Your Name :</b></label>
+                    <input type="text" placeholder="Enter your name" name="Name" required>
+                    <br><br>
+                    <label for="Address"><b>Address :</b></label>
+                    <input type="text" placeholder="Address" name="email" required>
+                    <br><br>
+                    <label for="email"><b>Email :</b></label>
+                    <input type="text" placeholder="Enter Email"  name="email" required>
+                    <br><br>
+                    <label for="psw"><b>Password :</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br><br>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+            </div>
+    </div>
+   
+</body>
+
+</html>

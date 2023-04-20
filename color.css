@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+
+
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #10290b;
+  overflow: auto;
+  position: fixed;
+  display: block;
+  transition: top 0.3s;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  margin-top: 5px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.logo {
+  border-radius: 50%;
+  height: 53px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 25px;
+
+}
+
+.bg img {
+  width: 100%;
+}
+
+.centered {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  margin-top: 100px;
+
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #660303;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  padding: 20px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+
+}
+
+.super {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: center;
+  padding: 13px;
+  margin-left: 500px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.super button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.super button:hover {
+  opacity: 0.7;
+}
+
+.devil{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: right;
+  padding: 13px;
+  margin-right: 117px;
+  margin-top: -370px;
+  margin-left: 500px;
+  margin-bottom: 40px;
+}
+.devil img{
+  height: 159px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.devil button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.devil button:hover {
+  opacity: 0.7;
+
+}
+h1 {
+  background-color:  #660303;
+  color: white;
+ 
+}
+
+.cards {
+  background-color: #660303;
+  font-size: 60px;
+  color: white;
+  font-weight: 800;
+  font-family: sans-serif;
+ 
+}
+marquee{
+  font-size: 30px;
+  align-items: center;
+  font-weight: 800;
+  color:#fbfbfa;
+  font-family: sans-serif;
+  }
+  #com{
+
+    background-color: #660303;
+    margin-top: 39px;
+    font-size:39px;
+   text-align:right;
+  }
+  .wrap img{
+    width: 100%;
+   margin-top: 5px;
+   position: absolute;
+  }
+  
+  .kalo{
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+   
+   
+  }
+  .col{
+    box-sizing: 2rem;
+    position: absolute;
+   height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,80%);
+    margin: 20px;
+    font-size: 25px;
+  }
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .bg-img {
+      /* The image used */
+      background-image: url("img_nature.jpg");
+    
+      min-height: 380px;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Add styles to the form container */
+    .container {
+      position: absolute;
+      right: 0;
+      margin: 20px;
+      max-width: 300px;
+      padding: 16px;
+      background-color: white;
+    }
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Set a style for the submit button */
+    .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .btn:hover {
+      opacity: 1;
+    }
+    #trp marquee{
+       margin-bottom: 5px;
+       font-size: 25px;
+       direction:left;
+    }
+    
